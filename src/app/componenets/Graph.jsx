@@ -46,7 +46,7 @@ const SemicircleGraph = ({ percentage, color }) => {
       // Draw the percentage text at the middle bottom of the canvas
       const percentageText = `${percentage}%`;
       context.fillStyle = color;
-      context.font = '36px "Akshar", "Convergence", sans-serif';
+      context.font = '34px "Akshar", "Convergence", sans-serif';
       context.textAlign = 'center';
       context.fillText(percentageText, canvas.width / 2, canvas.height);
     };
