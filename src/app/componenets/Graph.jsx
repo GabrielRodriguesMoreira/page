@@ -54,7 +54,7 @@ const SemicircleGraph = ({ percentage, color }) => {
 
   return (
     <main style={{ position: 'relative'}}>
-      <canvas ref={canvasRef} width={118} height={80} />
+      <canvas ref={canvasRef} width={118} height={80}  />
     </main>
   );
 };
