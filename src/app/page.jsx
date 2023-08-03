@@ -93,13 +93,21 @@ export default function Home() {
           </div>
           <div className={styles.right_block_graphs}>
             <div className={styles.right_block_graphs_box}>
-            <SemicircleGraph percentage={25} color={"#fff"} />
-            <h4>Enredo</h4>
+            <SemicircleGraph percentage={0} color={"#1C6E69"} />
+            <h4>Animation</h4>
             </div>
-
-            <SemicircleGraph percentage={25} color={"#fff"} />
-            <SemicircleGraph percentage={25} color={"#fff"} />
-            <SemicircleGraph percentage={25} color={"#fff"} />
+            <div className={styles.right_block_graphs_box}>
+            <SemicircleGraph percentage={94} color={"#1C6E24"} />
+            <h4>Direction</h4>
+            </div>
+            <div className={styles.right_block_graphs_box}>
+            <SemicircleGraph percentage={83} color={"#6E1C1C"} />
+            <h4>Plot</h4>
+            </div>
+            <div className={styles.right_block_graphs_box}>
+            <SemicircleGraph percentage={100} color={"#6E1C5C"} />
+            <h4>Narrative</h4>
+            </div>
           </div>
         </section>
       </section>

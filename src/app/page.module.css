@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300&family=Convergence&display=swap');
+
 .main {
   flex: 1;
   width: 100%;
@@ -163,7 +165,8 @@
   box-shadow: 0px 0px 4px 0px rgba(28, 62, 110, 0.50);
   border: 2px solid var(--secondary-color);
 }
-.staffblock p{
+
+.staffblock p {
   background-color: var(--secondary-color);
   font-size: 12px;
   border-radius: 1rem;
@@ -174,6 +177,7 @@
   box-shadow: 0px 0px 4px 0px rgba(28, 10, 41, 0.50);
   transform: translateY(5px);
 }
+
 .right_block_graphs {
   flex: 0 1 37%;
   display: flex;
@@ -183,14 +187,18 @@
   box-shadow: 0px 4px 0px 0px var(--primary-color);
   border-radius: 0.5rem;
 }
-.right_block_graphs_box{
-  height: 100%;
+
+.right_block_graphs_box {
   flex: 0 1 25%;
-  background-color: red;
+  display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  gap: 10px;
+  text-align: center;
+
 }
-.right_block_graphs_box h4{
+
+.right_block_graphs_box h4 {
+  font-weight: 500;
   color: white;
+  font-family: 'Convergence', sans-serif;
 }
