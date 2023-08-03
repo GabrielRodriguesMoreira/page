@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Convergence&display=swap');
+
+:root {
+ --bg-color: #050505;
+ --primary-color: #1C3E6E;
+ --secondary-color: #3e165a;
+ --txt-color: #fff;
+}
+
+body, html, body *{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+body{
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--bg-color);
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border-bottom: 2px solid var(--secondary-color);
+  padding: 8px;
+  text-align: left;
+}
+
+th:last-child, td:last-child {
+  text-align: right;
+}
+
+
+
