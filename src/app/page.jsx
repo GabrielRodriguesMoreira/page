@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import styles from './page.module.css'
-import SemicircleGraph from './componenets/Graph.jsx';
+
 export default function Home() {
 
   return (
@@ -92,22 +92,6 @@ export default function Home() {
             </div>
           </div>
           <div className={styles.right_block_graphs}>
-            <div className={styles.right_block_graphs_box}>
-            <SemicircleGraph percentage={92} color={"#1C6E69"} />
-            <h4>Animation</h4>
-            </div>
-            <div className={styles.right_block_graphs_box}>
-            <SemicircleGraph percentage={94} color={"#1C6E24"} />
-            <h4>Direction</h4>
-            </div>
-            <div className={styles.right_block_graphs_box}>
-            <SemicircleGraph percentage={83} color={"#6E1C1C"} />
-            <h4>Plot</h4>
-            </div>
-            <div className={styles.right_block_graphs_box}>
-            <SemicircleGraph percentage={100} color={"#6E1C5C"} />
-            <h4>Narrative</h4>
-            </div>
           </div>
         </section>
       </section>
