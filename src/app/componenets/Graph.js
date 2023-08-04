@@ -15,7 +15,7 @@ const SemicircleGraph = ({ percentage, color }) => {
     const radius = canvas.height - padding;
 
     const image = new Image();
-    image.src = '../../../public/frame5.svg';
+    image.src = './frame5.svg';
     image.onload = () => {
       // Draw the gray semicircle
       context.beginPath();
