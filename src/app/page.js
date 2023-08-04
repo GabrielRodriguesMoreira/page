@@ -1,7 +1,7 @@
+import SemicircleGraph from './componenets/Graph'
 import styles from './page.module.css'
 
 export default function Home() {
-
   return (
     <main className={styles.main}>
       <div className={styles.banner}>
@@ -21,13 +21,13 @@ export default function Home() {
               <span>Mecha</span>
             </div>
             <p>
-              In a distant future where humanity resides in underground villages to escape the wrath of mysterious creatures known as "Beastmen," a young orphan named Simon discovers a small, mysterious drill pendant while excavating. Kamina, a spirited and charismatic rebel, recognizes its significance and dreams of reaching the surface to explore the world above. The duo sets off on an adventure, creating their giant robot, Gurren Lagann, to battle against the Beastmen and their tyrannical leader, Lordgenome.
+              In a distant future where humanity resides in underground villages to escape the wrath of mysterious creatures known as Beastmen, a young orphan named Simon discovers a small, mysterious drill pendant while excavating. Kamina, a spirited and charismatic rebel, recognizes its significance and dreams of reaching the surface to explore the world above. The duo sets off on an adventure, creating their giant robot, Gurren Lagann, to battle against the Beastmen and their tyrannical leader, Lordgenome.
             </p>
           </div>
         </section>
         <section className={styles.right_block}>
-          <div className={styles.right_block_upper_blocks}>
-            <div className={styles.right_block_block}>
+          <div className={styles.right_upper_blocks}>
+            <div className={styles.right_small_blocks}>
               <div className={styles.stars}>
                 <img src="/star1.svg"></img>
                 <img src="/star1.svg"></img>
@@ -38,7 +38,7 @@ export default function Home() {
               <h2>4.5/5.0</h2>
               <h3>15.590 votes</h3>
             </div>
-            <div className={styles.right_block_block}>
+            <div className={styles.right_small_blocks}>
               <table>
                 <tbody>
                   <tr>
@@ -91,6 +91,22 @@ export default function Home() {
             </div>
           </div>
           <div className={styles.right_block_graphs}>
+            <div className={styles.right_block_graphs_box}>
+              <SemicircleGraph percentage={92} color={"#1C6E69"} />
+              <h4>Animation</h4>
+            </div>
+            <div className={styles.right_block_graphs_box}>
+              <SemicircleGraph percentage={88} color={"#6E1C5C"} />
+              <h4>Direction</h4>
+            </div>
+            <div className={styles.right_block_graphs_box}>
+              <SemicircleGraph percentage={94} color={"#6E1C1C"} />
+              <h4>Plot</h4>
+            </div>
+            <div className={styles.right_block_graphs_box}>
+              <SemicircleGraph percentage={98} color={"#1C6E24"} />
+              <h4>Audio</h4>
+            </div>
           </div>
         </section>
       </section>

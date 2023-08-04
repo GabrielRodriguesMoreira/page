@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300&family=Convergence&display=swap');
 
 .main {
   flex: 1;
@@ -99,13 +98,13 @@
   gap: 10px;
 }
 
-.right_block_upper_blocks {
+.right_upper_blocks {
   flex: 0 1 37%;
   display: flex;
   gap: 30px;
 }
 
-.right_block_block {
+.right_small_blocks {
   flex: 0 1 50%;
   background-color: #0B0B0B;
   box-shadow: 0px 4px 0px 0px var(--primary-color);
@@ -130,12 +129,12 @@
   height: 100%;
 }
 
-.right_block_block h2 {
+.right_small_blocks h2 {
   font-size: 48px;
   font-weight: 500;
 }
 
-.right_block_block h3 {
+.right_small_blocks h3 {
   font-size: 16px;
   font-weight: 400;
 }
